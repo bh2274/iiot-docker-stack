@@ -53,12 +53,12 @@ Using Portainer
 
 ## Services
 Service         URL                        Description
-Mosquitto       mqtt://localhost:1883      MQTT broker for messaging.
-MQTT Explorer   http://localhost:4000      Web-based MQTT client for debugging and visualization.
-InfluxDB        http://localhost:8086      Time-series database for storing sensor data.
-Node-RED        http://localhost:1880      Flow-based development tool for IoT automation.
-Grafana         http://localhost:3000      Visualization tool for creating dashboards.
-Python Scripts  N/A                        Custom Python scripts for data processing and integration.
+-Mosquitto       mqtt://localhost:1883      MQTT broker for messaging.
+-MQTT Explorer   http://localhost:4000      Web-based MQTT client for debugging and visualization.
+-InfluxDB        http://localhost:8086      Time-series database for storing sensor data.
+-Node-RED        http://localhost:1880      Flow-based development tool for IoT automation.
+-Grafana         http://localhost:3000      Visualization tool for creating dashboards.
+-Python Scripts  N/A                        Custom Python scripts for data processing and integration.
 
 ## Persistent Data 
 All data is stored persistently in the following directories:
