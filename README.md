@@ -52,13 +52,13 @@ Using Portainer
 4. Deploy the stack.
 
 ## Services
-Service         URL                        Description
--Mosquitto       mqtt://localhost:1883      MQTT broker for messaging.
--MQTT Explorer   http://localhost:4000      Web-based MQTT client for debugging and visualization.
--InfluxDB        http://localhost:8086      Time-series database for storing sensor data.
--Node-RED        http://localhost:1880      Flow-based development tool for IoT automation.
--Grafana         http://localhost:3000      Visualization tool for creating dashboards.
--Python Scripts  N/A                        Custom Python scripts for data processing and integration.
+Service-URL-Description
+1. Mosquitto       mqtt://localhost:1883      MQTT broker for messaging.
+2. MQTT Explorer   http://localhost:4000      Web-based MQTT client for debugging and visualization.
+3. InfluxDB        http://localhost:8086      Time-series database for storing sensor data.
+4. Node-RED        http://localhost:1880      Flow-based development tool for IoT automation.
+5. Grafana         http://localhost:3000      Visualization tool for creating dashboards.
+6. Python Scripts  N/A                        Custom Python scripts for data processing and integration.
 
 ## Persistent Data 
 All data is stored persistently in the following directories:
